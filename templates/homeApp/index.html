@@ -16,8 +16,9 @@
 
     {% if image %}
         <h2>Results! </h2>
-        <img src="{{ image.first_image.url }}" alt="Could not upload!" style="width:300px; height:auto">
-        <img src="{{ image.second_image.url }}" alt="Could not upload!" style="width:300px; height:auto">
+        <img src = "{{ post.image.url }}" alt="Could not upload style image!" style="width:300px; height:auto">
+        <!--<img src="{{ image.first_image.url }}" alt="Could not upload!" style="width:300px; height:auto">-->
+        <!--<img src="{{ image.second_image.url }}" alt="Could not upload!" style="width:300px; height:auto">-->
     {% endif %}
 </body>
 </html>

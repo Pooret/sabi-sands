@@ -9,3 +9,14 @@ class Image(models.Model):
 
     def __str__(self):
         return "I am an image"
+
+
+class StyleImage(models.Model):
+    stylized_image = models.ImageField()
+
+    def __str__(self):
+        return "I am an image"
+
+
+
+
